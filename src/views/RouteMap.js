@@ -25,7 +25,7 @@ export default function RouteMap() {
                     <img className='view-logo' id='view-logo' src={navRouteMap} alt='nav'></img>
                     <div className="route-icons">
                         <img className="routeLogo" id='Route-logo' src={require('../images/logopque.png')} alt='Logo'></img>
-                        <img className="routeExit" id='Route-exit' src={require('../images/humbleicons_logout.png')} alt='exit'></img>
+                        <img className="routeExit" id='Route-exit' src={require('../images/humbleicons_logout.png')} alt='exit' onClick={()=>navigate('/')}></img>
                     </div>
                {/*  </header> */}
             </div>
